@@ -1,0 +1,9 @@
+#mainContainer {
+    background-image: url('https://images.pexels.com/photos/169647/pexels-photo-169647.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#container {
+    box-shadow: inset 0em 0em 9px 1px white;
+}
