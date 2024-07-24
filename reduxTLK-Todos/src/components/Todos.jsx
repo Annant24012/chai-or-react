@@ -43,4 +43,3 @@ function Todos() {
 }
 
 export default Todos;
-todo
