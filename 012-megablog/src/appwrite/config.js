@@ -1,9 +1,10 @@
-import { Client, Databases, Storage ,ID} from "appwrite";
-import conf from "../conf"
+import { Client, Databases, Storage ,ID ,Account} from "appwrite";
+import conf from '../conf/conf'
 
 export class Service{
     client=new Client();
     databases;
+    account
     bucket;
 
     constructor()

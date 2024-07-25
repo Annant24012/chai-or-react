@@ -1,5 +1,5 @@
 import { Client, Account, ID } from "appwrite";
-import conf from "../conf"
+import conf from "../conf/conf.js"
 export class AuthServices{
     client = new Client()
     account;
@@ -36,7 +36,7 @@ export class AuthServices{
             throw error;
         }
     }
-    async getCuurentAccount()
+    async getCurrentAccount()
     {
         try {
             return await this.account.get();
